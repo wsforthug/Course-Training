@@ -1,0 +1,115 @@
+h4{
+	font-size: 20px;
+	background-color: yellow;
+	color:blue;
+}
+h3{
+	font-size:20px;
+	background-color:yellow;
+	color:blue;
+}
+ol li{
+	color:blue;
+}
+ol>li{
+	color:red;
+}
+input[type=text]{
+	background-color:lightblue;
+}
+input[type=number]{
+	background-color:lightgreen;
+}
+.submit{
+	width:50px;
+	height:15px;
+	font-size:5px;
+	background-color:green;
+}
+.submit:hover{
+	width:200px;
+	height:50px;
+	font-size:20px;
+	background-color:orange;
+}
+p::selection{
+	color:red;
+	background-color:yellow;
+}
+@media print {
+	.non-print{
+		display:none;
+	}
+}
+@media print{
+	.submit{
+		width:200px;
+		height:50px;
+		font-size:20px;
+		background-color:orange;
+	}
+}
+@media (min-width: 800px){
+	body {
+		background-color: orange;
+	}
+}
+@media (max-width: 799px){
+	body{
+		background-color: grey;
+	}
+}
+@media (max-width: 799px){
+	.responsive{
+		width: 150px;
+		height: 30px;
+		font-size:14px;
+		background-color:purple;
+	}
+}
+@media (max-width: 799px){
+	.resl {
+		width: 200px;
+		height: 50px;
+		font-size: 25px;
+		background-color: purple;
+	}
+}
+@media (max-width: 799px){
+	.rest{
+		width: 200px;
+		height:50px;
+		font-size:25px;
+		background:purple;
+	}
+}
+
+@media (max-width: 799px){
+	.resh{
+		display:none;
+	}
+} 
+
+.resi{
+	display: flex;
+	flex-flow:row wrap;
+	
+}
+.grid{
+	display:grid;
+	background-color:green;
+	padding: 20px;
+	grid-column-gap:20px;
+	grid-row-gap:10px;
+	grid-template-columns: 200px auto auto;
+}
+.grid-item{
+	background-color:grey;
+	font-size:20px;
+	padding: 20px;
+	text-align:center;
+}
+.resp{
+	display:grid;
+	grid-template-columns: auto;
+}
